@@ -77,13 +77,13 @@ export default function Project() {
               <div className="btn-container">
                 <button
                   className="btn btn-color-2 project-btn"
-                  onClick={() => (window.location.href = pro.githubLink)}
+                  onClick={() => window.open(pro.githubLink, '_blank')}
                 >
                   Github
                 </button>
                 <button
                   className="btn btn-color-2 project-btn"
-                  onClick={() => (window.location.href = pro.live)}
+                  onClick={() => window.open(pro.live, '_blank')}
                 >
                   Live Demo
                 </button>
