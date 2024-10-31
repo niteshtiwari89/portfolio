@@ -22,7 +22,7 @@ const Profile = () => {
         <p className="section__text__p2">Software Developer</p>
         <div className="btn-container">
           <a
-            href="https://drive.google.com/file/d/1ykhr7ouH_1k814cRP0hM2pXJiFeFyqk7/view?usp=sharing"
+            href="https://drive.google.com/file/d/1DVVmOnhnMVrkJgpvlVUcAu5_SYfw_Nbs/view?usp=sharing"
             download="NiteshTiwariResume"
             type="pdf"
             target="_blank"
