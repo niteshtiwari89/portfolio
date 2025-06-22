@@ -11,14 +11,13 @@ import AOS from "aos";
 import "./index.css";
 import "aos/dist/aos.css";
 
-
 function App() {
   useEffect(() => {
     AOS.init();
   }, []);
   return (
     <div className="App">
-      <section id="home">
+      {/* <section id="home">
         <NavBar />
         <Profile />
       </section>
@@ -26,7 +25,21 @@ function App() {
       <Skills />
       <Project />
       <Contact />
-      <Footer />
+      <Footer /> */}
+
+      <div class="container">
+        <div class="emoji">🚧</div>
+        <h1 class="title">Work in Progress</h1>
+        <p class="description">
+          My portfolio is currently under construction. Exciting updates are on
+          the way!
+        </p>
+        <div class="dots">
+          <div class="dot"></div>
+          <div class="dot"></div>
+          <div class="dot"></div>
+        </div>
+      </div>
     </div>
   );
 }

@@ -1,5 +1,5 @@
 import React from "react";
-import Image from "../Photo.jpg";
+import Image from "../images/profile.jpg";
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import GitHubIcon from '@material-ui/icons/GitHub';
 

@@ -24,6 +24,9 @@
     display: flex;
     z-index: 10;
   }
+  .details-container{
+    width: 50%;
+  }
   #experience,
   .experience-details-container {
     margin-top: 2rem;
@@ -49,6 +52,7 @@
   }
   .about-containers {
     margin-top: 0;
+    flex-wrap: wrap;
   }
 }
 
@@ -108,4 +112,10 @@
   .arrows {
     display: none;
   }
+}
+
+
+.section__pic-container{
+  display: flex;
+  justify-content: center;
 }

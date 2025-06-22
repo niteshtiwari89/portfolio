@@ -31,6 +31,30 @@ const About = () => {
               data-aos="zoom-in"
               data-aos-duration="1000"
             >
+              <WorkIcon />
+              <h3>Experience</h3>
+              <p>
+              Software Developer Intern<br />@ DevBee IT Solutions
+                International Pvt. Ltd. Nagpur.{" "}
+              </p>
+            </div>
+            <div
+              className="details-container"
+              data-aos="zoom-in"
+              data-aos-duration="1000"
+            >
+              <WorkIcon />
+              <h3>Experience</h3>
+              <p>
+              Software Developer Intern<br />@ DevBee IT Solutions
+                International Pvt. Ltd. Nagpur.{" "}
+              </p>
+            </div>
+            <div
+              className="details-container"
+              data-aos="zoom-in"
+              data-aos-duration="1000"
+            >
               <SchoolIcon />
               <h3>Education</h3>
               <p>
